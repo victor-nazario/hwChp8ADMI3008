@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Margarine');
+
+
+#wrapper {
+width: 1000px; 
+margin: 0 auto;  /*This rule centers the wrapper in the browser*/
+border-style: solid; 
+border-width: 6px; 
+background-color: #92f442;
+}
+
+body{
+background-image: url("leavespattern.png");
+}
+
+h1 {
+font-family: 'Margarine', cursive;
+text-align: center; 
+word-spacing: 5px; 
+border-bottom: 6px dotted; 
+}
+
+h5 {
+margin-left: 10px; 
+}
+
+p {
+font-family: Courier;
+font-size: 1.5em;  
+line-height: 1.25em; /*Sets the line spacing to the specified value*/
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left:10px; 
+}
+
+
+#bayImg {
+float: left; 
+margin: 15px; 
+border-radius: 20px; 
+width: 480;
+height: 284;
+}
+
+#mapImg{
+float: right; 
+margin: 17px; 
+border-radius: 20px; 
+width: 292;
+height: 221; 
+}
